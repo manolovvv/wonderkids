@@ -76,7 +76,7 @@ const ArticleComponent = (props) => {
             name="topic"
             id="topic"
             onChange={onChangeHandler}
-            value={input}
+            // value={input}
           >
             <option value="chemistry" >Chemistry</option>
             <option value="biology">Biology</option>
