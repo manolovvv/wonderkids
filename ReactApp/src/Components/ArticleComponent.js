@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-const ArticleComponent = props =>{
-    return <h1>Article</h1>
-}
-
-export default ArticleComponent;
-=======
 import React, { useEffect, useState } from "react";
 import SliderData from "../Components/SliderData.js";
 import img from "../images/3637164.jpg";
@@ -106,4 +99,3 @@ const ArticleComponent = (props) => {
 };
 
 export default ArticleComponent;
->>>>>>> f38ac1eab9ad30c9958c3787f8a6785a863d77a2
