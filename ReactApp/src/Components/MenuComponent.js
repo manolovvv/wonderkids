@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom';
+>>>>>>> f38ac1eab9ad30c9958c3787f8a6785a863d77a2
 
 const MenuComponent = props => {
 return (
