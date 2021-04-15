@@ -50,14 +50,12 @@ const ArticleComponent = (props) => {
   };
 
   const onIndexIncreaseHandler = () => {
-    if(articleIndex === 1) return
     setArticleIndex(articleIndex + 1);
-    console.log(articles);
+    console.log(articles)
     // setArticleTitle(articles[articleIndex].data().title)
   };
 
   const onIndexDecreaseHandler = () => {
-    if(articleIndex === 0) return
     setArticleIndex(articleIndex - 1);
   };
 
